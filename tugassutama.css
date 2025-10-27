@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+}
+
+.utama {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 100px; /* tinggi tiap baris */
+  gap: 1px; /* jarak garis pembatas */
+  border: 1px solid black;
+}
+
+.satu {
+  background-color: yellow;
+  border: 1px solid black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+}
